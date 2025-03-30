@@ -1,0 +1,29 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+env/
+venv/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Unit test/coverage reports
+.tox/
+.coverage
+.pytest_cache/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Other common exclusions
+.DS_Store
+*.swp
