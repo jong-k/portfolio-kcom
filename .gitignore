@@ -1,29 +1,49 @@
-# Ignore Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-*/.ipynb_checkpoints/*
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Python cache and compiled files
-__pycache__/
-*.py[cod]
-*$py.class
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
 
-# Virtual environment directories
-env/
-venv/
+# testing
+/coverage
 
-# Logs and temporary files
-*.log
-*.tmp
+# next.js
+/.next/
+/out/
 
-# Unit test/coverage reports
-.tox/
-.coverage
-.pytest_cache/
+# production
+/build
 
-# IDE-specific files
-.vscode/
-.idea/
-
-# Other common exclusions
+# misc
 .DS_Store
-*.swp
+*.pem
+.idea
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
