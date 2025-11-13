@@ -33,9 +33,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 
-# VuePress default temp directory
-docs/.vuepress/.temp
-# VuePress default cache directory
-docs/.vuepress/.cache
-# VuePress default build output directory
-docs/.vuepress/dist
+# VitePress
+docs/.vitepress/dist
+docs/.vitepress/cache
