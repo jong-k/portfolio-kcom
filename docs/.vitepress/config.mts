@@ -26,5 +26,4 @@ export default defineConfig({
     socialLinks: [{ icon: "github", link: "https://github.com/jong-k" }],
   },
   srcExclude: ["**/README.md", "**/AGENTS.md"],
-  outDir: "../dist",
 });
