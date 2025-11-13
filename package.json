@@ -8,13 +8,15 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "lint": "eslint --fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.18.2",
   "devDependencies": {
+    "@eslint/js": "^9.39.1",
     "@trivago/prettier-plugin-sort-imports": "^6.0.0",
     "eslint": "^9.39.1",
     "eslint-config-prettier": "^10.1.8",
